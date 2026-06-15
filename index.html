@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<h1>KIRUTHIKA</h1>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<button id="theme-toggle">🌙</button>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Welcome to My Portfolio</h2>
+<p>Frontend Developer | Student | Learner</p>
+</section>
+
+<section class="projects-grid">
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Responsive portfolio built using HTML and CSS.</p>
+</div>
+
+<div class="card">
+<h3>Student Management System</h3>
+<p>C++ project using file handling.</p>
+</div>
+
+<div class="card">
+<h3>Image Gallery</h3>
+<p>Interactive image gallery with JavaScript.</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 MY Portfolio</p>
+</footer>
+
+<script>
+document.getElementById("theme-toggle").addEventListener("click", function(){
+document.body.classList.toggle("dark-mode");
+});
+</script>
+
+</body>
+</html>
